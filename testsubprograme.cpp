@@ -15,7 +15,7 @@ int cmmdc(int a, int b)
     }
     else
     {
-        while (a % b == 0)
+        while (a % b != 0)
         {
             int c = a % b;
             a = b;
